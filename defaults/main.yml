@@ -7,6 +7,7 @@ python_target_version: 2.7
 python_configure_prefix: /usr/local
 python_configure_enable_shared: "--enable-shared"
 python_configure_ldflags: "LDFLAGS=\"-Wl,-rpath {{ python_configure_prefix }}/lib\""
+ez_setup_url: "https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py"
 
 # for 2.7 : --enable-unicode=ucs4
 # for 3.2 : --with-wide-unicode
